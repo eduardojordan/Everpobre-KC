@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03DA259218E0716006CFE48 /* EverpobreLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A03DA258218E0716006CFE48 /* EverpobreLogo.png */; };
+		A04FD41D216CC6F5000489A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD41C216CC6F5000489A3 /* AppDelegate.swift */; };
+		A04FD422216CC6F5000489A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FD420216CC6F5000489A3 /* Main.storyboard */; };
+		A04FD424216CC6F7000489A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04FD423216CC6F7000489A3 /* Assets.xcassets */; };
+		A04FD427216CC6F7000489A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FD425216CC6F7000489A3 /* LaunchScreen.storyboard */; };
+		A04FD430216CCA64000489A3 /* NotebookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD42F216CCA64000489A3 /* NotebookListViewController.swift */; };
+		A04FD432216CD78E000489A3 /* NotebookListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD431216CD78E000489A3 /* NotebookListCell.swift */; };
+		A04FD437216CFA1C000489A3 /* deprecated_Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD436216CFA1C000489A3 /* deprecated_Note.swift */; };
+		A04FD43A216CFAF9000489A3 /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD439216CFAF9000489A3 /* NotesListViewController.swift */; };
+		A04FD43E216D094A000489A3 /* NoteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD43C216D094A000489A3 /* NoteDetailsViewController.swift */; };
+		A04FD441216D2D11000489A3 /* 120x180.png in Resources */ = {isa = PBXBuildFile; fileRef = A04FD440216D2D11000489A3 /* 120x180.png */; };
+		A04FD444216D2FB2000489A3 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD443216D2FB2000489A3 /* Date+Utils.swift */; };
+		A04FD446216D3854000489A3 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD445216D3854000489A3 /* CoreDataStack.swift */; };
+		A04FD449216D3CFF000489A3 /* Everpobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A04FD447216D3CFF000489A3 /* Everpobre.xcdatamodeld */; };
+		A04FD453216D4387000489A3 /* deprecated_Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD452216D4387000489A3 /* deprecated_Notebook.swift */; };
+		A08CA9812174C6BC00662691 /* NewNotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CA97F2174C6BC00662691 /* NewNotesListViewController.swift */; };
+		A08CA9822174C6BC00662691 /* NewNotesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08CA9802174C6BC00662691 /* NewNotesListViewController.xib */; };
+		A08CA9852174CF5C00662691 /* NotesListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CA9832174CF5C00662691 /* NotesListCollectionViewCell.swift */; };
+		A08CA9862174CF5C00662691 /* NotesListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08CA9842174CF5C00662691 /* NotesListCollectionViewCell.xib */; };
+		A08CA98B21753BDF00662691 /* UIImage+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CA98821753BDE00662691 /* UIImage+Alpha.swift */; };
+		A08CA98C21753BDF00662691 /* UIImage+ReSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CA98921753BDF00662691 /* UIImage+ReSize.swift */; };
+		A08CA98D21753BDF00662691 /* UIImage+RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CA98A21753BDF00662691 /* UIImage+RoundCorner.swift */; };
+		A0BA27C9217B267500F88C8E /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA27C8217B267500F88C8E /* Animator.swift */; };
+		A0BA27CB217B2A8F00F88C8E /* NoteDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BA27CA217B2A8F00F88C8E /* NoteDetailsViewController.xib */; };
+		A0BA28472180DC8100F88C8E /* NewNoteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA28452180DC8100F88C8E /* NewNoteMapViewController.swift */; };
+		A0BA28482180DC8100F88C8E /* NewNoteMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BA28462180DC8100F88C8E /* NewNoteMapViewController.xib */; };
+		A0BC17AE218B286B0054743C /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17A8218B286B0054743C /* Notebook+CoreDataClass.swift */; };
+		A0BC17AF218B286B0054743C /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17A9218B286B0054743C /* Notebook+CoreDataProperties.swift */; };
+		A0BC17B0218B286B0054743C /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17AA218B286B0054743C /* Note+CoreDataClass.swift */; };
+		A0BC17B1218B286B0054743C /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17AB218B286B0054743C /* Note+CoreDataProperties.swift */; };
+		A0BC17B2218B286B0054743C /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17AC218B286B0054743C /* Location+CoreDataClass.swift */; };
+		A0BC17B3218B286B0054743C /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17AD218B286B0054743C /* Location+CoreDataProperties.swift */; };
+		A0BC17B5218B37320054743C /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC17B4218B37320054743C /* PointOfInterest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A03DA258218E0716006CFE48 /* EverpobreLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EverpobreLogo.png; sourceTree = "<group>"; };
+		A04FD419216CC6F5000489A3 /* EverPobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverPobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04FD41C216CC6F5000489A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A04FD421216CC6F5000489A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04FD423216CC6F7000489A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04FD426216CC6F7000489A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A04FD428216CC6F7000489A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04FD42F216CCA64000489A3 /* NotebookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookListViewController.swift; sourceTree = "<group>"; };
+		A04FD431216CD78E000489A3 /* NotebookListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookListCell.swift; sourceTree = "<group>"; };
+		A04FD436216CFA1C000489A3 /* deprecated_Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deprecated_Note.swift; sourceTree = "<group>"; };
+		A04FD439216CFAF9000489A3 /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		A04FD43C216D094A000489A3 /* NoteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailsViewController.swift; sourceTree = "<group>"; };
+		A04FD440216D2D11000489A3 /* 120x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x180.png; sourceTree = "<group>"; };
+		A04FD443216D2FB2000489A3 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		A04FD445216D3854000489A3 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A04FD448216D3CFF000489A3 /* Everpobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Everpobre.xcdatamodel; sourceTree = "<group>"; };
+		A04FD452216D4387000489A3 /* deprecated_Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deprecated_Notebook.swift; sourceTree = "<group>"; };
+		A08CA97F2174C6BC00662691 /* NewNotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotesListViewController.swift; sourceTree = "<group>"; };
+		A08CA9802174C6BC00662691 /* NewNotesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewNotesListViewController.xib; sourceTree = "<group>"; };
+		A08CA9832174CF5C00662691 /* NotesListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListCollectionViewCell.swift; sourceTree = "<group>"; };
+		A08CA9842174CF5C00662691 /* NotesListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesListCollectionViewCell.xib; sourceTree = "<group>"; };
+		A08CA98721751AEA00662691 /* Everpobre v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Everpobre v2.xcdatamodel"; sourceTree = "<group>"; };
+		A08CA98821753BDE00662691 /* UIImage+Alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Alpha.swift"; sourceTree = "<group>"; };
+		A08CA98921753BDF00662691 /* UIImage+ReSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ReSize.swift"; sourceTree = "<group>"; };
+		A08CA98A21753BDF00662691 /* UIImage+RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RoundCorner.swift"; sourceTree = "<group>"; };
+		A0BA27C8217B267500F88C8E /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		A0BA27CA217B2A8F00F88C8E /* NoteDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteDetailsViewController.xib; sourceTree = "<group>"; };
+		A0BA27D4217B6A0000F88C8E /* Everpobre v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Everpobre v3.xcdatamodel"; sourceTree = "<group>"; };
+		A0BA28452180DC8100F88C8E /* NewNoteMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteMapViewController.swift; sourceTree = "<group>"; };
+		A0BA28462180DC8100F88C8E /* NewNoteMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewNoteMapViewController.xib; sourceTree = "<group>"; };
+		A0BC17A8218B286B0054743C /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "EverPobre/Model/Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A0BC17A9218B286B0054743C /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "EverPobre/Model/Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A0BC17AA218B286B0054743C /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "EverPobre/Model/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A0BC17AB218B286B0054743C /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "EverPobre/Model/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A0BC17AC218B286B0054743C /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataClass.swift"; path = "EverPobre/Model/Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A0BC17AD218B286B0054743C /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataProperties.swift"; path = "EverPobre/Model/Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A0BC17B4218B37320054743C /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04FD416216CC6F5000489A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04FD410216CC6F5000489A3 = {
+			isa = PBXGroup;
+			children = (
+				A0BC17A8218B286B0054743C /* Notebook+CoreDataClass.swift */,
+				A0BC17A9218B286B0054743C /* Notebook+CoreDataProperties.swift */,
+				A0BC17AA218B286B0054743C /* Note+CoreDataClass.swift */,
+				A0BC17AB218B286B0054743C /* Note+CoreDataProperties.swift */,
+				A0BC17AC218B286B0054743C /* Location+CoreDataClass.swift */,
+				A0BC17AD218B286B0054743C /* Location+CoreDataProperties.swift */,
+				A04FD41B216CC6F5000489A3 /* EverPobre */,
+				A04FD41A216CC6F5000489A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04FD41A216CC6F5000489A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD419216CC6F5000489A3 /* EverPobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04FD41B216CC6F5000489A3 /* EverPobre */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA27C8217B267500F88C8E /* Animator.swift */,
+				A04FD440216D2D11000489A3 /* 120x180.png */,
+				A03DA258218E0716006CFE48 /* EverpobreLogo.png */,
+				A04FD442216D2F99000489A3 /* Utils */,
+				A04FD433216CD9A1000489A3 /* Model */,
+				A04FD42E216CC842000489A3 /* NotebookList */,
+				A04FD438216CFAD5000489A3 /* NoteList */,
+				A04FD43B216D08EB000489A3 /* NoteDetails */,
+				A04FD41C216CC6F5000489A3 /* AppDelegate.swift */,
+				A04FD420216CC6F5000489A3 /* Main.storyboard */,
+				A04FD423216CC6F7000489A3 /* Assets.xcassets */,
+				A04FD425216CC6F7000489A3 /* LaunchScreen.storyboard */,
+				A04FD428216CC6F7000489A3 /* Info.plist */,
+				A04FD447216D3CFF000489A3 /* Everpobre.xcdatamodeld */,
+			);
+			path = EverPobre;
+			sourceTree = "<group>";
+		};
+		A04FD42E216CC842000489A3 /* NotebookList */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD42F216CCA64000489A3 /* NotebookListViewController.swift */,
+				A04FD431216CD78E000489A3 /* NotebookListCell.swift */,
+			);
+			path = NotebookList;
+			sourceTree = "<group>";
+		};
+		A04FD433216CD9A1000489A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD452216D4387000489A3 /* deprecated_Notebook.swift */,
+				A04FD436216CFA1C000489A3 /* deprecated_Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A04FD438216CFAD5000489A3 /* NoteList */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD439216CFAF9000489A3 /* NotesListViewController.swift */,
+				A08CA97F2174C6BC00662691 /* NewNotesListViewController.swift */,
+				A08CA9802174C6BC00662691 /* NewNotesListViewController.xib */,
+				A08CA9832174CF5C00662691 /* NotesListCollectionViewCell.swift */,
+				A08CA9842174CF5C00662691 /* NotesListCollectionViewCell.xib */,
+				A0BA28452180DC8100F88C8E /* NewNoteMapViewController.swift */,
+				A0BA28462180DC8100F88C8E /* NewNoteMapViewController.xib */,
+				A0BC17B4218B37320054743C /* PointOfInterest.swift */,
+			);
+			name = NoteList;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A04FD43B216D08EB000489A3 /* NoteDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD43C216D094A000489A3 /* NoteDetailsViewController.swift */,
+				A0BA27CA217B2A8F00F88C8E /* NoteDetailsViewController.xib */,
+			);
+			path = NoteDetails;
+			sourceTree = "<group>";
+		};
+		A04FD442216D2F99000489A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A08CA98821753BDE00662691 /* UIImage+Alpha.swift */,
+				A08CA98921753BDF00662691 /* UIImage+ReSize.swift */,
+				A08CA98A21753BDF00662691 /* UIImage+RoundCorner.swift */,
+				A04FD443216D2FB2000489A3 /* Date+Utils.swift */,
+				A04FD445216D3854000489A3 /* CoreDataStack.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04FD418216CC6F5000489A3 /* EverPobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04FD42B216CC6F7000489A3 /* Build configuration list for PBXNativeTarget "EverPobre" */;
+			buildPhases = (
+				A04FD415216CC6F5000489A3 /* Sources */,
+				A04FD416216CC6F5000489A3 /* Frameworks */,
+				A04FD417216CC6F5000489A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverPobre;
+			productName = EverPobre;
+			productReference = A04FD419216CC6F5000489A3 /* EverPobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04FD411216CC6F5000489A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Eduardo Jordan Muñoz";
+				TargetAttributes = {
+					A04FD418216CC6F5000489A3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A04FD414216CC6F5000489A3 /* Build configuration list for PBXProject "EverPobre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A04FD410216CC6F5000489A3;
+			productRefGroup = A04FD41A216CC6F5000489A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04FD418216CC6F5000489A3 /* EverPobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04FD417216CC6F5000489A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04FD427216CC6F7000489A3 /* LaunchScreen.storyboard in Resources */,
+				A08CA9862174CF5C00662691 /* NotesListCollectionViewCell.xib in Resources */,
+				A0BA28482180DC8100F88C8E /* NewNoteMapViewController.xib in Resources */,
+				A0BA27CB217B2A8F00F88C8E /* NoteDetailsViewController.xib in Resources */,
+				A03DA259218E0716006CFE48 /* EverpobreLogo.png in Resources */,
+				A04FD424216CC6F7000489A3 /* Assets.xcassets in Resources */,
+				A08CA9822174C6BC00662691 /* NewNotesListViewController.xib in Resources */,
+				A04FD422216CC6F5000489A3 /* Main.storyboard in Resources */,
+				A04FD441216D2D11000489A3 /* 120x180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04FD415216CC6F5000489A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC17AF218B286B0054743C /* Notebook+CoreDataProperties.swift in Sources */,
+				A0BA27C9217B267500F88C8E /* Animator.swift in Sources */,
+				A08CA9812174C6BC00662691 /* NewNotesListViewController.swift in Sources */,
+				A0BC17AE218B286B0054743C /* Notebook+CoreDataClass.swift in Sources */,
+				A04FD437216CFA1C000489A3 /* deprecated_Note.swift in Sources */,
+				A04FD43E216D094A000489A3 /* NoteDetailsViewController.swift in Sources */,
+				A04FD449216D3CFF000489A3 /* Everpobre.xcdatamodeld in Sources */,
+				A04FD430216CCA64000489A3 /* NotebookListViewController.swift in Sources */,
+				A0BC17B1218B286B0054743C /* Note+CoreDataProperties.swift in Sources */,
+				A08CA98C21753BDF00662691 /* UIImage+ReSize.swift in Sources */,
+				A0BC17B3218B286B0054743C /* Location+CoreDataProperties.swift in Sources */,
+				A08CA9852174CF5C00662691 /* NotesListCollectionViewCell.swift in Sources */,
+				A04FD41D216CC6F5000489A3 /* AppDelegate.swift in Sources */,
+				A0BC17B5218B37320054743C /* PointOfInterest.swift in Sources */,
+				A04FD453216D4387000489A3 /* deprecated_Notebook.swift in Sources */,
+				A04FD446216D3854000489A3 /* CoreDataStack.swift in Sources */,
+				A08CA98D21753BDF00662691 /* UIImage+RoundCorner.swift in Sources */,
+				A04FD444216D2FB2000489A3 /* Date+Utils.swift in Sources */,
+				A08CA98B21753BDF00662691 /* UIImage+Alpha.swift in Sources */,
+				A0BA28472180DC8100F88C8E /* NewNoteMapViewController.swift in Sources */,
+				A0BC17B0218B286B0054743C /* Note+CoreDataClass.swift in Sources */,
+				A04FD43A216CFAF9000489A3 /* NotesListViewController.swift in Sources */,
+				A0BC17B2218B286B0054743C /* Location+CoreDataClass.swift in Sources */,
+				A04FD432216CD78E000489A3 /* NotebookListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A04FD420216CC6F5000489A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04FD421216CC6F5000489A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A04FD425216CC6F7000489A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04FD426216CC6F7000489A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A04FD429216CC6F7000489A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A04FD42A216CC6F7000489A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A04FD42C216CC6F7000489A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = EverPobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jordan.EverPobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A04FD42D216CC6F7000489A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = EverPobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jordan.EverPobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04FD414216CC6F5000489A3 /* Build configuration list for PBXProject "EverPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FD429216CC6F7000489A3 /* Debug */,
+				A04FD42A216CC6F7000489A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04FD42B216CC6F7000489A3 /* Build configuration list for PBXNativeTarget "EverPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FD42C216CC6F7000489A3 /* Debug */,
+				A04FD42D216CC6F7000489A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A04FD447216D3CFF000489A3 /* Everpobre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0BA27D4217B6A0000F88C8E /* Everpobre v3.xcdatamodel */,
+				A08CA98721751AEA00662691 /* Everpobre v2.xcdatamodel */,
+				A04FD448216D3CFF000489A3 /* Everpobre.xcdatamodel */,
+			);
+			currentVersion = A0BA27D4217B6A0000F88C8E /* Everpobre v3.xcdatamodel */;
+			path = Everpobre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A04FD411216CC6F5000489A3 /* Project object */;
+}
